@@ -1,0 +1,50 @@
+.container{
+    width:70%;
+    margin:50px auto;
+    padding:20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.flex-container{
+    width: 100%;
+    border:1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    border-radius: 50px;
+    // overflow: hidden;
+}
+.inner-container{
+    width: 33.3%;
+    height: 15px;
+    position: relative;
+}
+.inner-container:first-child{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.inner-container:last-child{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.circle{
+    width:20px;
+    height: 20px;
+    border-radius: 50px;
+    border:3px solid #fff;
+    position: absolute;
+    top: -5px;
+    right:-13px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.first-circle{
+    background:red;
+}
+.second-circle{
+    background:yellow;
+}
+.third-circle{
+    background:greenyellow
+}
+.progress{
+    background: pink;
+}
